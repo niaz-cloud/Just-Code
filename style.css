@@ -244,7 +244,7 @@ h3 {
 .cta{
     width: 80%;
     margin: 100px auto;
-    background-image: linear-gradient(rgb(239, 173, 20),rgb(234, 240, 235)), url(https://i.postimg.cc/mrG2TdCt/cta-image.png);
+    background-image: linear-gradient(rgb(158, 121, 46),rgb(234, 240, 235)), url(https://i.postimg.cc/C11LGdvJ/cta-image.png);
     padding: 100px 0;
     flex-direction:column;
     gap: 20px;
@@ -296,4 +296,142 @@ footer p {
     background-color: 4px;
     border-radius: 4px;
     padding: 10px;
+}
+
+
+/* sub-header*/
+.sub-header{
+    height: 50vh;
+    background: linear-gradient(rgba(181, 67, 67, 8.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/brW8jqWm/website-backgorund-image.png);
+    background-size: cover ;
+    background-position: center;
+}
+.sub-header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 50px ;
+}
+
+.About-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.cta-btn{
+    border: 1px solid crimson;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    transition: .4s; 
+
+
+
+}
+.cta-btn:hover{
+    background: crimson;
+}
+.About-col{
+    flex-basis: 48%;
+    padding: 30px 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+.About-col p{
+    text-align: left;
+}
+.About-col img{
+    width: 100%;
+}
+.About-col h1{
+    padding-top: 0;
+    
+}
+.About-col .cta-btn{
+    color: crimson;
+}
+.About-col .cta-btn:hover{
+    color: white ;
+}
+.blog-content{
+    width: 80%;
+    padding: 60px 0;
+    margin: auto;
+
+}
+.blog-left{
+    flex-basis: 65%;
+
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+     
+}
+.blog-left{
+    text-align: left;
+}
+.blog-right{
+    flex-basis: 32%;
+
+}
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comment-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.comment-box form input , textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #ddd;
+    transition: .3s;
+}
+.comment-box form input:focus,textarea:focus{
+    border-color: crimson;
+}
+.comment-box .blog-btn{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+
+}
+.comment-box .blog-btn:hover{
+    transform: scale(1.11);
+     
+}
+.blog-right h3{
+    background-color: crimson;
+    color: white;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px ;
+    text-align: center;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
 }
